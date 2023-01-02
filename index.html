@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <body class="d-flex h-100 text-center text-bg-dark">
+        <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+            <header class="mb-auto">
+                <div>
+                    <h3 class="float-md-start mb-0">Emoji Mosaic Creator</h3>
+                </div>
+            </header>
+
+            <main class="px-3 d-flex flex-column align-items-center">
+                <p>Upload an image to get started</p>
+                <input type="file" name="fileUpload" id="fileUpload" />
+                <img src="" alt="" id="preview" />
+                <canvas id="output" height="200" width="200"></canvas>
+            </main>
+        </div>
+    </body>
+    <script type="module" src="/src/main.js"></script>
+</html>

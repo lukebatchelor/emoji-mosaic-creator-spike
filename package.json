@@ -1,0 +1,22 @@
+{
+    "name": "emoji-mosaic-creator",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview"
+    },
+    "devDependencies": {
+        "fast-average-color-node": "^2.6.0",
+        "prettier": "^2.8.1",
+        "vite": "^4.0.0"
+    },
+    "dependencies": {
+        "bootstrap": "^5.2.3",
+        "bootswatch": "^5.2.3",
+        "color-diff": "^1.2.0",
+        "fast-average-color": "^9.3.0"
+    }
+}
